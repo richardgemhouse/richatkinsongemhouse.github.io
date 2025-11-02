@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Richard Gem House — Global Gemstone Dealer</title>
+  <style>
+    :root {
+      --emerald:#046c4a;
+      --light:#ffffff;
+      --muted:#666;
+      --maxw:1000px;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    }
+    body { margin:0; background:var(--light); color:#102018; }
+    header { background:linear-gradient(180deg,rgba(4,108,74,0.06),rgba(4,108,74,0.02)); border-bottom:4px solid var(--emerald); }
+    .wrap { max-width:var(--maxw); margin:0 auto; padding:28px; }
+    h1 { color:var(--emerald); margin:0 0 6px; font-size:28px; }
+    p.lead { margin:0 0 18px; color:var(--muted); }
+    nav { display:flex; gap:12px; flex-wrap:wrap; margin-top:12px; }
+    nav a { text-decoration:none; padding:8px 12px; border-radius:8px; color:var(--emerald); border:1px solid rgba(4,108,74,0.12); font-weight:600; }
+    section { padding:36px 0; border-bottom:1px dashed #eee; }
+    .grid { display:grid; grid-template-columns:1fr 340px; gap:28px; align-items:start; }
+    .card { background:#fff; border-radius:10px; padding:18px; box-shadow:0 6px 20px rgba(6,50,34,0.03); }
+    .gallery { display:flex; gap:10px; flex-wrap:wrap; }
+    .gem { width:calc(33% - 8px); min-width:100px; background:linear-gradient(180deg,#fff,#fbfff9); border-radius:8px; padding:8px; text-align:center; box-shadow:0 4px 12px rgba(2,30,20,0.04); }
+    footer { padding:20px 0; text-align:center; color:var(--muted); }
+    @media(max-width:900px){ .grid{ grid-template-columns:1fr; } .gem{ width:calc(50% - 8px); } nav{ justify-content:center; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Richard Gem House</h1>
+      <p class="lead">Global Gemstone Dealer — Empowering lives through Jyotish Gemstones & Planetary Gem Therapy</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="about">
+      <div class="grid">
+        <div class="card">
+          <h2>About Richard Gem House</h2>
+          <p>At <strong>Richard Gem House</strong>, we empower individuals and organizations worldwide by harnessing the ancient science of Vedic Astrology and Planetary Gemology. We provide natural, unheated, Jyotish-quality gemstones, ethical sourcing, and transparent gem therapy recommendations that prioritize our patrons' wellbeing.</p>
+          <p>We aim to be the global authority on Planetary Gemology and Planetary Gem Therapy by offering expert consultations, certified gemstones, and educational resources.</p>
+        </div>
+
+        <aside class="card">
+          <h3>Quick Contact</h3>
+          <p>Email: <a href="mailto:nasni767@gmail.com">nasni767@gmail.com</a></p>
+          <p>Tagline: Global Gemstone Dealer</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services" class="card">
+      <h2>Services</h2>
+      <ul>
+        <li>Planetary Gem Therapy Consultations (personalized Jyotish guidance)</li>
+        <li>Jyotish Gemstone Selection & Authenticity Verification</li>
+        <li>Custom Gemstone Jewelry</li>
+        <li>Astrological Reports & Remedies</li>
+        <li>Global Shipping and Certification Assistance</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <div class="gem"><strong>Blue Sapphire (Neelam)</strong></div>
+        <div class="gem"><strong>Yellow Sapphire (Pukhraj)</strong></div>
+        <div class="gem"><strong>Emerald (Panna)</strong></div>
+        <div class="gem"><strong>Ruby (Manik)</strong></div>
+        <div class="gem"><strong>Red Coral (Moonga)</strong></div>
+        <div class="gem"><strong>Cat's Eye (Lehsunia)</strong></div>
+      </div>
+      <p style="margin-top:12px;color:var(--muted)">Tip: Replace these placeholders with your gem photos in the <code>images/</code> folder.</p>
+    </section>
+
+    <section id="certificates" class="card">
+      <h2>Certificates</h2>
+      <p>Each gemstone comes with an <strong>Authenticity Certificate</strong> and optional Gemological Lab Report and Energy Compatibility Report. Upload scanned certificates as PDFs or images to the <code>assets/</code> folder in your repo and link them here.</p>
+    </section>
+
+    <section id="testimonials" class="card">
+      <h2>Testimonials</h2>
+      <blockquote>“Richard Gem House guided me to the perfect gemstone for my chart. The energy shift was remarkable.” — Arjun S., India</blockquote>
+      <blockquote>“Their transparency and knowledge in Vedic Gemology are unmatched.” — Lena M., UK</blockquote>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:nasni767@gmail.com">nasni767@gmail.com</a></p>
+      <p>Worldwide Shipping | Ethical & Certified | Authentic Jyotish Gems</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© Richard Gem House — Empowering lives through Planetary Gemology</div>
+  </footer>
+</body>
+</html>
